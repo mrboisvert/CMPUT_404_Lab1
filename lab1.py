@@ -1,3 +1,3 @@
 import requests as r
-google_home_page = r.get("https://www.google.com/")
-print(google_home_page)
+raw_script = r.get("https://raw.githubusercontent.com/mrboisvert/CMPUT_404_Lab1/main/lab1.py")
+print(raw_script.content)
